@@ -24,3 +24,4 @@ def rec(a, b, x, y)
   turtle.forward(b)
   turtle.left(90)
   turtle.penup()  
+  
