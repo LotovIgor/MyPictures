@@ -26,13 +26,3 @@ def rec(a, b, x, y):
   turtle.left(90)
   turtle.penup()  
   
-def tri(size, flip):
-    turtle.pendown()
-    turtle.fill(True)
-    for _ in range(3):
-        if flip:
-           turtle.left(120)
-        turtle.forward(size)
-        if not flip:
-           turtle.right(120)
-    turtle.penup()
