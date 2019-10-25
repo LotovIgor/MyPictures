@@ -1,5 +1,5 @@
 import turtle
-#Masha
+#Маша
 #Тело функции, рисующей квадрат
     goto(x, y)
     turtle.pendown()        
