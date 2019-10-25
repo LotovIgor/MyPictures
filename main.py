@@ -2,6 +2,7 @@ import turtle
 
 def square(x, y, size, color):
     # Пишет функцию, рисующую квадрат
+    #Маша
     goto(x, y)
     turtle.pendown()        
     turtle.forward(size)
