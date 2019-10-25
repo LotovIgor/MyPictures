@@ -1,9 +1,10 @@
 import turtle
 
-def square(x, y, size, color):
+def square(x, y, size, color, angle):
     # Маша пишет функцию, рисующую квадрат
     turtle.goto(x, y)
     turtle.pendown()
+    turtle.left(angle)
     turtle.forward(size)
     turtle.left(90)
     turtle.forward(size)
