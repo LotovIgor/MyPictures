@@ -16,7 +16,7 @@ def square(x, y, size, color, angle):
     turtle.penup()
     pass
 
-def triangle(x, y, size, color, angle):
+def triangle(x, y, a, b, color, angle):
     # Игорь пишет функцию, рисующую треугольник
     pass
 
