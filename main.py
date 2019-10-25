@@ -1,5 +1,6 @@
 import turtle
 
+
 def square(x, y, size, color, angle):
     # Маша пишет функцию, рисующую квадрат
     turtle.goto(x, y)
@@ -16,9 +17,12 @@ def square(x, y, size, color, angle):
     turtle.penup()
     pass
 
+
 def triangle(x, y, a, b, color, angle):
     # Игорь пишет функцию, рисующую треугольник
+    # Треугольники только прямоугольные, вводим координаты острого угла при а
     pass
+
 
 def rhomb(x, y, size, color, angle):
     # Нил пишет функцию, рисующую ромб
@@ -36,3 +40,5 @@ def rhomb(x, y, size, color, angle):
 # Нил рисует
 
 # Нил рисует
+
+turtle.exitonclick()
