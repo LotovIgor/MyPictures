@@ -1,7 +1,7 @@
 import turtle
 
 def square(x, y, size, color):
-    # Пишет функцию, рисующую квадрат
+    # Маша пишет функцию, рисующую квадрат
     turtle.goto(x, y)
     turtle.pendown()
     turtle.forward(size)
@@ -16,9 +16,9 @@ def square(x, y, size, color):
     pass
 
 def triangle(x, y, size, color, angle):
-    # Пишет функцию, рисующую треугольник
+    # Игорь пишет функцию, рисующую треугольник
     pass
 
 def rhomb(x, y, size, color, angle):
-    # Пишет функцию, рисующую ромб
+    # Нил пишет функцию, рисующую ромб
     pass
