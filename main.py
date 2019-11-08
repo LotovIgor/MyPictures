@@ -12,6 +12,7 @@ def square(x, y, size, color, angle):
     turtle.goto(x, y)
     turtle.left(angle)
     turtle.pendown()
+    turtle.pencolor(color)
     turtle.left(angle)
     turtle.forward(size)
     turtle.left(90)
@@ -21,6 +22,9 @@ def square(x, y, size, color, angle):
     turtle.left(90)
     turtle.forward(size)
     turtle.left(90)
+    turtle.right(45)
+    turtle.backward(size/2)
+    turtle.fillcolor(color)
     turtle.penup()
     pass
 
