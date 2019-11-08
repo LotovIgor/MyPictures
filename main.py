@@ -4,7 +4,11 @@ import turtle
 
 def square(x, y, size, color, angle):
     # Маша пишет функцию, рисующую квадрат
+    # Поворот против часовой стрелки
+    # Координаты левого нижнего угла квадрата
+    # Пример:square(0, 0, 80, 'red', angle)
     turtle.goto(x, y)
+    turtle.left(angle)
     turtle.pendown()
     turtle.left(angle)
     turtle.forward(size)
