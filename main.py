@@ -2,7 +2,7 @@ import turtle
 import math
 from turtle import *
 # !!!!!!!!После написания процедуры поворачиваем черепашку так, чтобы смотрела вправо, как в начале!!!!!
-
+turtle.setup(1000, 1000)
 
 def square(x, y, size, color, angle):
     # Маша пишет функцию, рисующую квадрат
