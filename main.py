@@ -45,8 +45,9 @@ def triangle(x, y, a, b, color, angle):
     turtle.forward(a)
     turtle.left(90)
     turtle.forward(b)
-    turtle.goto(x,y)
+    turtle.goto(x, y)
     turtle.end_fill()
+    turtle.right(angle + 90)
     turtle.up()
     pass
 
@@ -62,7 +63,11 @@ def rhomb(x, y, size, color, angle):
 # Маша рисует верблюда
 
 # Игорь рисует черепаху
-triangle(-410, 305, 200/math.sqrt(2), 200/math.sqrt(2), 'green', -135)
+triangle(-435, 305, 200/math.sqrt(2), 200/math.sqrt(2), 'darkviolet', -135)
+triangle(-435, 100, 210/math.sqrt(2), 210/math.sqrt(2), 'indigo', 45)
+triangle(-485 - 100 * math.cos(math.radians(30)), 105, 100 * math.cos(math.radians(25)),
+         100 * math.sin(math.radians(25)), 'green', 5)
+triangle(-485, 255, 100 * math.sin(math.radians(25)), 100 * math.cos(math.radians(25)), 'darkgreen', 85)
 # Игорь рисует змею
 
 # Нил рисует
