@@ -10,18 +10,15 @@ def square(x, y, size, color, angle):
     # Координаты левого нижнего угла квадрата
     # Пример:square(0, 0, 80, 'red', angle)
     turtle.goto(x, y)
+    turtle.color(color)
     turtle.left(angle)
     turtle.pendown()
-    turtle.pencolor(color)
+    turtle.begin_fill()
     turtle.left(angle)
     for _ in range(4):
       turtle.forward(size)
       turtle.left(90)
-    turtle.right(45)
-    turtle.backward(size/2)
-    turtle.fillcolor(color)
-    turtle.forward(size/2)
-    turtle.right(135)
+    turtle.end_fill()
     turtle.penup()
     pass
 
