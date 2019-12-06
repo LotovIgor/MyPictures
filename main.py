@@ -13,6 +13,7 @@ def square(x, y, size, color, angle):
     # Поворот против часовой стрелки
     # Координаты левого нижнего угла квадрата
     # Пример:square(0, 0, 80, 'red', angle)
+    turtle.penup()
     turtle.goto(x, y)
     turtle.left(angle)
     turtle.pendown()
